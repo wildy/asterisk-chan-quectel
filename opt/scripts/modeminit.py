@@ -20,7 +20,7 @@ try:
     print('Setting RATs...')
     phone.write(b'AT+CNMP=2\r') # Set network technology to 'All'
     time.sleep(0.5)
-    print(Setting mic and out gain...)
+    print('Setting mic and out gain...')
     phone.write(b'AT+CMICGAIN=1\r') # Set mic gain
     time.sleep(0.5)
     phone.write(b'AT+COUTGAIN=1\r') # Set out gain
