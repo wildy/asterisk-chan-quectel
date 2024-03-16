@@ -35,7 +35,7 @@ docker run -d \
   --device /dev/ttyUSB2:/dev/quectel0-data \
   --device /dev/ttyUSB4:/dev/quectel0-audio \
   --restart always \
-  wildy.asterisk-chan-quectel:latest
+  wildy/asterisk-chan-quectel:latest
 ```
 
 
