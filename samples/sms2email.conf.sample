@@ -1,0 +1,7 @@
+[mail]
+server=mail.example.com
+port=465
+username=notify@example.com
+password=supersecretpass
+sender=notify@example.com
+sender_name=SMSGateway
