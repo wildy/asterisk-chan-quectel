@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This is a Docker container including (IchthysMaranatha/asterisk-chan-quectel)[https://github.com/IchthysMaranatha/asterisk-chan-quectel].
+This is a Docker container including [IchthysMaranatha/asterisk-chan-quectel](https://github.com/IchthysMaranatha/asterisk-chan-quectel).
 I use it with the Simcom SIM7600E modem hat for a Raspberry Pi 4 for forwarding SMS to email and calling using IAX to my main PBX
 running FreePBX.
 
