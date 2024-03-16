@@ -37,6 +37,15 @@ docker run -d \
   --restart always \
   wildy.asterisk-chan-quectel:latest
 ```
+
+
+## Hardware
+
+Keep in mind that the SIM7600E can consume up to 2.1A of current! This means, you'll need to power the Pi and the 
+SIM7600E using the USB header on the hat itself - otherwises the Pi will turn the USB port off randomly.
+
+The original RPi wall wart seems to work well with a USB-C to microUSB adapter.
+
 ## Bugs
 
 Lots.
