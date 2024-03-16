@@ -120,7 +120,7 @@ clearglobalvars=no
 ; function: ${ENV(VARIABLE)}
 ;
 [globals]
-SMS_EMAIL_TARGET=dunaeva.pro@gmail.com
+SMS_EMAIL_TARGET=xxxx@gmail.com
 CONSOLE=Console/dsp				; Console interface for demo
 ;CONSOLE=DAHDI/1
 ;CONSOLE=Phone/phone0
