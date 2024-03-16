@@ -208,9 +208,10 @@ EXPOSE 4569/udp
 STOPSIGNAL SIGTERM
 
 WORKDIR /var/lib/asterisk/
-COPY --chmod=755 entrypoint.sh /entrypoint.sh
-COPY --chmod=755 healthcheck.sh /healthcheck.sh
-COPY --chmod=755 opt/scripts/* /opt/scripts/
+COPY entrypoint.sh /entrypoint.sh
+COPY healthcheck.sh /healthcheck.sh
+COPY opt/scripts/* /opt/scripts/
+RUN chmod 755 /opt/scripts/* /healthcheck.sh /entrypoint.sh
 
 HEALTHCHECK --interval=10s --timeout=10s --retries=3 CMD /healthcheck.sh
 ENTRYPOINT ["/entrypoint.sh"]
