@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 import os, smtplib, ssl, configparser, argparse
 from email.mime.text import MIMEText
 
